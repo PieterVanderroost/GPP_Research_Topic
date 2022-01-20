@@ -43,6 +43,8 @@ Length(InitialTargetPosition - InitialBulletPosition)² + Length(targetVelocity\
  
  ## 3. Result
  ![GPP_Research](https://user-images.githubusercontent.com/97388368/150355400-4d7f934c-8ee1-45d4-8ba8-5f56ea35c964.gif)
+ 
+ Feel free to play around with the sliders in the Unity project. Spacebar to shoot and right mouse to turn camera.
 
  
  ## 4. Conclusion
