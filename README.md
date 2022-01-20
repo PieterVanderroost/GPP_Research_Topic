@@ -17,10 +17,12 @@ Our second equation will use this calculated t to find the unknown bullet veloci
 To find t in Equation 1 we first use the law of cosines as below:
 ![Law Of Cosines](https://user-images.githubusercontent.com/97388368/150339295-f258d3ff-bb60-4245-9134-29a1c3c18691.jpg)
 
- Length(InitialTargetPosition - InitialBulletPosition)² + Length(targetVelocity\*t)² - 2\*Length(InitialTargetPosition - InitialBulletPosition)\*Length(TargetVelocity\*t)\*cos(theta) = (BulletSpeed \* t)²
+**The law of cosine according to our problem:**
+Length(InitialTargetPosition - InitialBulletPosition)² + Length(targetVelocity\*t)² - 2\*Length(InitialTargetPosition - InitialBulletPosition)\*Length(TargetVelocity\*t)\*cos(theta) = (BulletSpeed \* t)²
  
  
- putting this equation in the form of a quadratic formula a\*t² + b\*t + c = 0 gives us 
+ **putting this equation in the form of a quadratic formula** a\***t²** + b\***t** + c = 0 gives us 
+ 
  (BulletSpeed² - TargetSpeed²)\***t²** + 2\*Length(InitialTargetPosition - InitialBulletPosition)\*TargetSpeed\*cos(theta)\***t** - (Length(InitialTargetPosition - InitialBulletPosition))² = 0
  
  t0 = (-b + Sqrt(b² - 4\*a\*c))/(2\*a)
