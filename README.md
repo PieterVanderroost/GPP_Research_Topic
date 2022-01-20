@@ -22,7 +22,9 @@ To find t in Equation 1 we first use the law of cosines as below:
  
  putting this equation in the form of a quadratic formula a\*t² + b\*t + c = 0 gives us 
  (BulletSpeed² - TargetSpeed²)\***t²** + 2\*Length(InitialTargetPosition - InitialBulletPosition)\*TargetSpeed\*cos(theta)\***t** - (Length(InitialTargetPosition - InitialBulletPosition))² = 0
+ 
  t0 = (-b + Sqrt(b² - 4\*a\*c))/(2\*a)
+ 
  t1 = (-b - Sqrt(b² - 4\*a\*c))/(2\*a)
  
  We now have 2 values for t: if both are negative there is no valid solution (there is no way of hitting the target in the future, if we would have shot sooner we would have been able to hit it; but alas the past is the past!)
