@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Target
   - CantShootUI
+  - Bullet
   layers:
   - Default
   - TransparentFX

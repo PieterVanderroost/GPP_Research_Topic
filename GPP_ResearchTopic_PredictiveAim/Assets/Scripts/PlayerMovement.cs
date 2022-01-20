@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     bool _turnAround = true;
     [SerializeField]
     float _turnDistance = 300.0f;
+    [SerializeField]
+    private GameObject _hitVFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,5 +58,14 @@ public class PlayerMovement : MonoBehaviour
     public void ChangeTurnDistance(float turnDist)
     {
         _turnDistance = turnDist;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("HIT");
+        if (other.CompareTag("Bullet"))
+        {
+            Instantiate(_hitVFX, transform.position, transform.rotation);
+        }
     }
 }

@@ -95,7 +95,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1873995a57096847813c321987726f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementSpeed: 10
+  publicVars: {fileID: 0}
+  _turnAround: 1
+  _turnDistance: 300
+  _hitVFX: {fileID: 0}
 --- !u!65 &2908507820890808010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104,7 +107,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2908507820890808008}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
